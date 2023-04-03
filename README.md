@@ -1,38 +1,41 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+Clon de Firefox Send para compartir archivos de manera segura
 
-First, run the development server:
+Este es un proyecto clon del frontend de Firefox Send, una herramienta que permite compartir archivos de manera segura y confidencial. En este clon, se utilizó Next.js y Tailwind CSS para mejorar la interfaz de usuario y hacerla más atractiva y fácil de usar.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Además, este proyecto incluye una API creada por el autor para crear cuentas de usuario y enviar y recibir archivos de manera segura y confidencial. Esto significa que no es necesario confiar en terceros para compartir archivos de manera segura, ya que todo el proceso se puede realizar a través de esta aplicación.
+Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este proyecto cuenta con las siguientes funcionalidades:
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+    Creación de cuentas de usuario
+    Envío de archivos
+    Recepción de archivos
+    Eliminación automática de archivos después de un cierto período de tiempo
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Tecnologías utilizadas
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Este proyecto fue creado utilizando las siguientes tecnologías:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+    Next.js: un framework de React para crear aplicaciones web
+    Tailwind CSS: un framework de CSS para crear diseños rápidos y personalizables
+    Node.js: un entorno de tiempo de ejecución para JavaScript
+    MongoDB: una base de datos NoSQL utilizada para almacenar información de usuario y archivo
 
-## Learn More
+Cómo usar este proyecto
 
-To learn more about Next.js, take a look at the following resources:
+Para usar este proyecto, sigue los siguientes pasos:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+    Clona este repositorio en tu máquina local
+    Instala todas las dependencias necesarias con el comando npm install
+    Crea una cuenta de MongoDB y asegúrate de tener las credenciales necesarias
+    Crea un archivo .env.local en la raíz del proyecto y agrega las variables de entorno necesarias (consulte .env.example para obtener más información)
+    Ejecuta el proyecto con el comando npm run dev
+    Accede al proyecto en http://localhost:3000
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contribuciones
 
-## Deploy on Vercel
+Este proyecto es de código abierto y las contribuciones son bienvenidas. Si deseas contribuir, crea un pull request y describe los cambios que realizaste.
+Licencia
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más información
